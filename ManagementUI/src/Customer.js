@@ -1,3 +1,8 @@
+/**
+ *  A custom Web Component to display a customer. Primarily inside
+ *  a list.
+ *  The component is registered under `attendi-customer`.
+ */
 class Customer extends HTMLElement {
 
     _customer = null;

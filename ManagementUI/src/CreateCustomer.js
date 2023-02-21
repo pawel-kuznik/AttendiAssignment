@@ -1,3 +1,7 @@
+/**
+ *  A component that allows creation of a new customer.
+ *  The component is registered under `attendi-createcustomer` tag.
+ */
 class CreateCustomer extends HTMLElement {
 
     constructor() {

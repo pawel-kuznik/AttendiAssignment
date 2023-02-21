@@ -4,6 +4,10 @@
  *  responses so they can be shared between different components and
  *  potentially allow different components to get updates when data
  *  changes.
+ * 
+ *  @todo this needs cleanups. The class is mixing responsibilities
+ *  of API connector, change observer, and data facade. It should be
+ *  split into smaller pieces.
  */
 class Data {
 

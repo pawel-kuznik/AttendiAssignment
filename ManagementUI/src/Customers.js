@@ -1,3 +1,7 @@
+/**
+ *  A custom Web Component to display a list of customers.
+ *  The component is registered under `attendi-customers` tag.
+ */
 class Customers extends HTMLElement {
 
     _observerCleanup;
@@ -15,8 +19,6 @@ class Customers extends HTMLElement {
     connectedCallback() {
 
         const buildList = list => {
-
-            console.trace(list);
 
             const container = this.shadowRoot.querySelector('div');
 
